@@ -49,4 +49,8 @@ for county_name in county_votes:
       largest_county=county_name
       largestcounty_turnout=county_turnout
 ~~~
-- 
+- Votes by candidate are as follows (determined using script similar to that used for votes by county):
+   1. Charles Casper Stockham: 23.0% (85,213)
+   2. Diana DeGette: 73.8% (272,892)
+   3. Raymon Anthony Doane: 3.1% (11,606)
+ - The winning candidate was Diana DeGette with 73.8% of the vote and 272,892 votes cast (determined using script similar to that used for the largest county)
