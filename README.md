@@ -23,8 +23,12 @@ The purpoose of the analysis was to help Tom, a representative of Colorado's ele
 
 - Total votes cast: 369,711. The total number of votes was determined by counting the number of rows after the header row using python:
 
-*with open(file_to_load) as election_data:*
-    *reader = csv.reader(election_data)*
-    *header = next(reader)*
-    *for row in reader:*
-      *total_votes = total_votes + 1*
+~~~
+with open(file_to_load) as election_data:
+   reader = csv.reader(election_data)
+   header = next(reader)
+   for row in reader:
+      total_votes = total_votes + 1
+~~~
+
+
