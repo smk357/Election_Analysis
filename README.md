@@ -1,5 +1,5 @@
 # Election_Analysis
-**An audit of Colorado Election Results
+**An audit of Colorado Election Results**
 
 ## Overview
 
@@ -60,3 +60,10 @@ for county_name in county_votes:
    3. Raymon Anthony Doane: 3.1% (11,606)
  
  - The winning candidate was Diana DeGette with 73.8% of the vote and 272,892 votes cast (determined using script similar to that used for the largest county)
+
+## Summary
+
+The script was used to determine total votes cast and vote breakdown by candidate and county. With further modification this script can be used to audit results for other elections. Some examples of proposed modifications are:
+
+1. To determine winning candidates for ranked choice voting systems, new script could be added in the code that shuffles the list of candidates based on voter preference
+2. The code could me modified to include lists and dictionaries by district and neighborhood to determine more complex voting behavior
