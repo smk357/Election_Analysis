@@ -45,6 +45,7 @@ for row in reader:
 for county_name in county_votes:
    county_turnout=county_votes[county_name]
    turnout_percentage = float(county_turnout) / float(total_votes) * 100
+~~~
 - Denver had the largest turnout at 306,055 votes cast. Sample script as follows:
 ~~~
 for county_name in county_votes:
